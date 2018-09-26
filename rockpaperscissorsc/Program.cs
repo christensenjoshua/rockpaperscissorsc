@@ -29,7 +29,7 @@ namespace rockpaperscissorsc
                     Console.WriteLine("Invalid selection, try again");
                     continue;
                 }
-                int compNum = rnd.Next(1, 3);
+                int compNum = rnd.Next(0, 3);
                 string compChoice = choices[compNum];
                 if (compChoice.Equals(userChoice))
                 {
